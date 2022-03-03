@@ -2,10 +2,11 @@
 #include "Song.hpp"
 using namespace std;
 
-int main(){
-    Song electric_relaxation;
-    electric_relaxation.add_title("Electric Relaxation");
-    //electric_relaxation.artist("A Tribe Called Quest");
 
-    cout << electric_relaxation.get_title() << "\n"; 
+int main() {
+  Song back_to_black("Back to Black", "Amy Winehouse");
+
+
+    cout << back_to_black.get_title() << "\n"; 
+    cout << back_to_black.get_artist()<< "\n"; 
 }

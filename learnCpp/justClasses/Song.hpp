@@ -9,12 +9,19 @@ private:
     string artist;
 
 public:
-// Method declarations
-    void add_title(string new_title);
-    string get_title();
+// Add a constructor here
+  Song(string new_title, string new_artist);
 
-    void add_artist(std::string set_artist);
-    std::string get_artist();
+ // Add a destructor here:
+ // Song(string new_title, string new_artist);
+ // ~Song();
+
+// Method declarations (no need, taken care by the constructor)
+   // void add_title(string new_title);
+   string get_title();
+
+   // void add_artist(std::string set_artist);
+   string get_artist();
 };
 
 
