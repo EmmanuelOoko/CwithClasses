@@ -12,11 +12,15 @@ For example, first_three_multiples(7) should return a vector with 7, 14, and 21.
 using namespace std;
 
 //Define first_three_multiples() here:
-int first_three_multiples(int num){
+void first_three_multiples(){
+    int num = 4;
 
-    vector <int> vector = {num*1, num*2, num*3};
-    return num;
-   
+    num *= 1;
+    num *= 2;
+    num *= 3;
+    
+    cout << num << "\n";
+
 } 
 
 int main() {
@@ -25,9 +29,11 @@ int main() {
   //  std::cout << element << "\n";
  // }
  
- 
-    int element = first_three_multiples(7);
-    cout << element << "\n";
+     // Returns only 7
+     //  int element = 
+    
+    first_three_multiples();
+    //cout << element << "\n"; 
 
  /*
   
